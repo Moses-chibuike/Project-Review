@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review code</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">Hello World ! , We are Software developers</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" placeholder="name here" />
+      </div>
+      <div class="form-group">
+        <label id="email-label">Email</label>
+        <input type="email" id="email" placeholder="email" required />
+      </div>
+
+      <div class="form-group">
+        <label class="number-label">Age</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="age"
+          min="0"
+          max="9"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label class="number-label">
+          Which option best describes your current role?</label
+        >
+        <select name="dropdown" id="dropdown">
+          <option value="man">man</option>
+          <option value="girl">girl</option>
+          <option value="boy">boy</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="number-label">
+          Would you recommend freeCodeCamp to a friend?</label
+        >
+        <label>
+          <input name="user-recommend" value="Definitely" type="checkbox" />
+          Definitely
+        </label>
+        <label>
+          <input name="user-recommend" value="Maybe" type="checkbox" />
+          Maybe
+        </label>
+        <label>
+          <input name="user-recommend" value="Not sure" type="checkbox" />
+          Not sure
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label class="number-label">
+          What would you like to see improved? (Check all that apply)</label
+        >
+        <label>
+          <input name="prefer" value="Front-end Projects" type="radio" />
+          Front-end Projects
+        </label>
+        <label>
+          <input name="prefer" value="Back-end Projects" type="radio" />
+          Back-end Projects
+        </label>
+        <label>
+          <input name="prefer" value="Data Visualization" type="radio" />
+          Data Visualization
+        </label>
+        <label
+          ><input name="prefer" value="Challenges" type="radio" />Challenges
+        </label>
+        <label>
+          <input name="prefer" value="Open Source Community" type="radio" />Open
+          Source Community
+        </label>
+        <label>
+          <input name="prefer" value="Gitter help rooms" type="radio" />
+          Gitter Help Rooms
+        </label>
+        <label>
+          <input name="prefer" value="Videos" type="radio" />
+          Videos
+        </label>
+        <label>
+          <input name="prefer" value="City Meetups" type="radio" />
+          City Meetups
+        </label>
+        <label>
+          <input name="prefer" value="Wiki" type="radio" />
+          Wiki
+        </label>
+        <label>
+          <input name="prefer" value="Forum" type="radio" />
+          Forum
+        </label>
+        <label>
+          <input name="prefer" value="Additional Courses" type="radio" />
+          Additional Courses
+        </label>
+      </div>
+      <div class="form-group text-area">
+        Any comments or suggestions?
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit">submit</button>
+    </form>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
